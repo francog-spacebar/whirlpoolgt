@@ -1,0 +1,198 @@
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034e;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034e;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034e;
+}
+
+.container--title {
+  color: #03034e;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034e;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}
+
+.paragraph--footer-header {
+  color: #111;
+  display: block;
+  font-size: 16px;
+  margin-top: -20px;
+  width: 100%;
+  text-align: left;
+}
+.paragraph--home-category-title,
+.paragraph--home-category-subtitle,
+.link--home-category-link,.wrapper--home-category-title,
+.wrapper--home-category-subtitle,
+.wrapper--home-category-link {
+  margin: 0;
+  padding: 0;
+}
+.paragraph--home-category-title {
+  color: #000;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  text-align: left;
+}
+
+.paragraph--home-category-link {
+  height: 2.5rem;
+  border-radius: 1.75rem;
+  background-color: #eeab00;
+  line-height: 1.0625rem;
+  font-size: 0.9375rem;
+  font-weight: Bold;
+  padding: 0 1.125rem;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 2.1875rem;
+  color: #fff;
+}
+.paragraph--home-category-link:hover {
+  background-color: #e09d00;
+}
+.link--home-category-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (min-width:980px){
+  .paragraph--owner-center-title {
+    top: 5.5rem;
+  }
+}
+.paragraph--owner-center-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0;
+  position: relative;
+  top: 2rem;
+}
+
+.strong--newsletter-leyend {
+  font-size: 1.13rem;
+  color: #353535 !important;
+  line-height: 21px;
+  font-family: "Helvetica Neue LT W01_71488914", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.wrapper--home-footnotes{
+  width: 100%;
+  text-align: left;
+}
+.paragraph--home-footnotes{
+  width: 100%;
+  text-align: left;
+}
+.paragraph--home-whirlpoolmexico {
+  font-weight: 700;
+  text-align: left;
+}
+
+.paragraph--telephone-number,
+.paragraph--telephone-leyend {
+  padding: 0 2px;
+}
+.wrapper--telephone-number {
+  margin-left: 8px;
+}
+.link--telephone-number,.link--telephone-number-mobile {
+  color: #eeab00;
+  text-decoration: none;
+  font-weight: 700;
+}
+.paragraph--telephone-number-mobile {
+  margin-top: -12px;
+}
+.paragraph--footer-menu-title,
+.paragraph--informacion {
+  color: #000;
+  font-weight: 700;
+}
+
+.wrapper--hero-mobile-item-text{
+}
+.paragraph--hero-mobile-item-text{
+  font-weight: 700;
+}

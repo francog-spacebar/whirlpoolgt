@@ -1,0 +1,116 @@
+{
+  "rich-text#footer-menu-servicioysoporte-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Servicio y soporte",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-6",
+      "blockClass": "footer-menu-title"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-menu-servicioysoporte": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#footer-menu-servicioysoporte-title",
+      "menu-item#registroDeProducto",
+      "menu-item#garantiasExtendidas",
+      "menu-item#talleresCertificados",
+      "menu-item#refacciones",
+      "menu-item#videosDeAyuda",
+      "menu-item#contactanos"
+    ]
+  },
+  "menu-item#registroDeProducto": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Registro de Producto",
+        "text": "Registro de Producto"
+      },
+      "blockClass": "footer-menu-link"
+    }
+  },
+  "menu-item#garantiasExtendidas": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Garantías Extendidas",
+        "text": "Garantías Extendidas"
+      },
+      "blockClass": "footer-menu-link"
+    }
+  },
+  "menu-item#talleresCertificados": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Talleres certificados",
+        "text": "Talleres certificados"
+      },
+      "blockClass": "footer-menu-link"
+    }
+  },
+  "menu-item#refacciones": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Refacciones",
+        "text": "Refacciones"
+      },
+      "blockClass": "footer-menu-link"
+    }
+  },
+  "menu-item#videosDeAyuda": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Videos de Ayuda",
+        "text": "Videos de Ayuda"
+      },
+      "blockClass": "footer-menu-link"
+    }
+  },
+  "menu-item#contactanos": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Contáctanos",
+        "text": "Contáctanos"
+      },
+      "blockClass": "footer-menu-link"
+    }
+  }
+}

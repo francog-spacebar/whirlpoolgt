@@ -1,0 +1,283 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": ["flex-layout.row#footer-row"]
+  },
+
+  "flex-layout.row#footer-row": {
+    "children": ["flex-layout.col#footer-col"],
+    "props": {
+      "blockClass": "footer-row"
+    }
+  },
+  "flex-layout.col#footer-col": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#Institucionales",
+      "flex-layout.row#footer-4-desktop",
+      "flex-layout.row#allRightsReserved"
+    ],
+    "props": {
+      "blockClass": "footer-col"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/WhirlpoolMX/"
+        },
+        {
+          "name": "Instagram",
+          "url": "#"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/MXWhirlpool/"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": ["flex-layout.row#newsletter"],
+    "props": {
+      "blockClass": "footer-newsletter"
+    }
+  },
+  "flex-layout.col#footer-row1-col1": {
+    "children": ["flex-layout.row#newsletter"]
+  },
+  "flex-layout.row#newsletter": {
+    "children": ["image#newsletter"]
+  },
+  "image#newsletter": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/newsletter_screenshot.png",
+      "maxHeight": "6.5rem"
+    }
+  },
+  "rich-text#newsletter-leyend": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Reciba noticias y actualizaciones de productos**",
+      "blockClass": "newsletter-leyend"
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-menu-servicioysoporte",
+      "vtex.menu@2.x:menu#footer-menu-productos",
+      "vtex.menu@2.x:menu#footer-menu-acercade",
+      "flex-layout.col#telefonos"
+    ],
+    "props": {
+      "blockClass": "footer-row2"
+    }
+  },
+  "flex-layout.col#telefonos": {
+    "children": [
+      "rich-text#informacion",
+      "rich-text#telefono-atencionalcliente"
+    ],
+    "props": { "blockClass": "footer-informacion" }
+  },
+  "rich-text#informacion": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Información",
+      "font": "t-heading-6",
+      "textColor": "c-on-base",
+      "blockClass": "informacion"
+    }
+  },
+  "rich-text#telefono-atencionalcliente": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Atención al Cliente:**\n**Monterrey:** (81)8329-2100",
+      "blockClass": "telefonos"
+    }
+  },
+
+  "flex-layout.row#footer-4-desktop": {
+    "children": [
+      "flex-layout.col#footer-metodosdepago",
+      "flex-layout.col#footer-developers"
+    ],
+    "props": {
+      "blockClass": "footer-row4"
+    }
+  },
+  "flex-layout.col#footer-metodosdepago": {
+    "children": [
+      "rich-text#metodosdepago-leyend",
+      "flex-layout.row#metodosdepago-images"
+    ],
+    "props": {
+      "blockClass": "footer-metodosdepago",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#metodosdepago-leyend": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "MÉTODOS DE PAGO",
+      "blockClass": "metodosdepago-leyend"
+    }
+  },
+  "flex-layout.row#metodosdepago-images": {
+    "children": [
+      "image#americanex",
+      "image#mastercard",
+      "image#visa",
+      "image#paypal",
+      "image#mercadopago"
+    ],
+    "props": {
+      "blockClass": "metodosdepago-images",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "image#americanex": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/logo_american_express_whirpool.png",
+      "maxHeight": "3rem"
+    }
+  },
+  "image#mastercard": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/logo_master_card_whirpool..png",
+      "maxHeight": "3rem"
+    }
+  },
+  "image#visa": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/logo_visa_whirpool.png",
+      "maxHeight": "3rem"
+    }
+  },
+  "image#paypal": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/logo_pay_pal_whirpool.png",
+      "maxHeight": "3rem"
+    }
+  },
+  "image#mercadopago": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/logo_mercado_pago_whirpool.png?v=637229943688300000",
+      "maxHeight": "3rem"
+    }
+  },
+  "flex-layout.col#footer-developers": {
+    "children": [
+      "rich-text#developers-leyend",
+      "flex-layout.row#developers-images"
+    ],
+    "props": {
+      "blockClass": "footer-developers"
+    }
+  },
+  "rich-text#developers-leyend": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "SITIO DESARROLLADO POR",
+      "blockClass": "developers-leyend"
+    }
+  },
+  "flex-layout.row#developers-images": {
+    "children": ["image#spacebar", "image#vtex"],
+    "props": { "preserveLayoutOnMobile": true }
+  },
+  "image#spacebar": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/logo_space_bar.png",
+      "maxHeight": "2.1875rem"
+    }
+  },
+  "image#vtex": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/logo_VTEX_whirpool.png",
+      "maxHeight": "2.1875rem"
+    }
+  },
+
+  "flex-layout.row#Institucionales": {
+    "children": ["vtex.menu@2.x:menu#footerInstitucionales"],
+    "props": {
+      "blockClass": "footer-institucionales",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "vtex.menu@2.x:menu#footerInstitucionales": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "menu-institucional"
+    },
+    "children": [
+      "menu-item#terminosYCondiciones",
+      "menu-item#avisoDePrivacidad"
+    ]
+  },
+
+  "menu-item#terminosYCondiciones": {
+    "props": {
+      "id": "menu-item-terminosYCondiciones",
+      "blockClass": "menu-institucional-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones",
+        "font": "t-mini"
+      }
+    }
+  },
+  "menu-item#avisoDePrivacidad": {
+    "props": {
+      "id": "menu-item-avisoDePrivacidad",
+      "blockClass": "menu-institucional-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Aviso de Privacidad",
+        "text": "Aviso de Privacidad",
+        "font": "t-mini"
+      }
+    }
+  },
+
+  "flex-layout.row#allRightsReserved": {
+    "children": ["rich-text#footerAllRightsReserved"],
+    "props": { "blockClass": "footer-copyright", "marginTop": 4 }
+  },
+  "rich-text#footerAllRightsReserved": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "© Whirlpool México, S. DE R.L. DE C.V. Derechos Reservados 2020.",
+      "textColor": "c-on-base",
+      "font": "t-mini",
+      "blockClass": "footer-copyright-leyend"
+    }
+  }
+}

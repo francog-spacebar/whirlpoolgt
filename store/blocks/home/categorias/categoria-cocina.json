@@ -1,0 +1,115 @@
+{
+  "flex-layout.row#category-cocina": {
+    "children": [
+      "flex-layout.col#home-category-left-cocina",
+      "flex-layout.col#home-category-right-cocina"
+    ],
+    "props": { "blockClass": "home-category-container" }
+  },
+  "rich-text#category-cocina-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Cocina",
+      "font": "t-heading-2",
+      "blockClass": "home-category-title"
+    }
+  },
+
+  "rich-text#home-cat2-subtitle": {
+    "props": {
+      "text": "NUEVA LÍNEA",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-4",
+      "blockClass": "home-category-subtitle"
+    }
+  },
+  "rich-text#home-cat2-content-text": {
+    "props": {
+      "text": "Único quemador Xpert Flamma. Brinda cocción uniforme a tus platillos.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-f6",
+      "blockClass": "home-category-subtitle"
+    }
+  },
+  "image#home-cat2-content-image": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/_home-cocina.jpg",
+      "blockClass": "content-image-small"
+    }
+  },
+  "rich-text#home-cat2-content-link": {
+    "props": {
+      "text": "[Conoce más](#)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-f6",
+      "blockClass": "home-category-link"
+    }
+  },
+  "flex-layout.row#home-category-big-image2": {
+    "children": ["image#category-cocina1"]
+  },
+  "flex-layout.row#home-category-small-image-container2": {
+    "children": [
+      "flex-layout.col#home-category2-small-image2",
+      "flex-layout.col#home-category2-small-image1"
+    ]
+  },
+
+  "flex-layout.col#home-category2-small-image1": {
+    "children": ["image#category-cocina2"],
+    "props":{
+      "width":"60%",
+      "marginLeft":"4"
+    }
+  },
+  "flex-layout.col#home-category2-small-image2": {
+    "children": ["image#category-cocina3"],
+    "props":{
+      "width":"40%"
+    }
+  },
+  "flex-layout.col#home-category-left-cocina": {
+    "children": [
+      "flex-layout.row#home-category-big-image2",
+      "flex-layout.row#home-category-small-image-container2"
+    ],
+    "props": {
+      "blockClass": "home-category-right_layout"
+    }
+  },
+  "flex-layout.col#home-category-right-cocina": {
+    "children": [
+      "rich-text#category-cocina-title",
+      "rich-text#home-cat2-subtitle",
+      "rich-text#home-cat2-content-text",
+      "image#home-cat2-content-image",
+      "rich-text#home-cat3-content-link"
+    ],
+    "props": {
+      "blockClass": "home-category-info",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#category-cocina1": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/_home-cocina_01.jpg",
+      "blockClass": "big"
+    }
+  },
+  "image#category-cocina2": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/_home-cocina_02.jpg",
+      "blockClass": "small-lg"
+    }
+  },
+  "image#category-cocina3": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/_home-cocina_03.jpg",
+      "blockClass": "small-sm"
+    }
+  }
+}

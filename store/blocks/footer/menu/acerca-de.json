@@ -1,0 +1,84 @@
+{
+  "rich-text#footer-menu-acercade-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Acerca de Whirlpool",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-6",
+      "blockClass": "footer-menu-title"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-menu-acercade": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#footer-menu-acercade-title",
+      "menu-item#contacto",
+      "menu-item#acercaDeWhirlpool",
+      "menu-item#bolsaDeTrabajo",
+      "menu-item#whirlpoolRecall"
+    ]
+  },
+  "menu-item#contacto": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Contacto",
+        "text": "Contacto"
+      },
+      "blockClass": "footer-menu-link"
+    }
+  },
+  "menu-item#acercaDeWhirlpool": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Acerca de Whirlpool",
+        "text": "Acerca de Whirlpool"
+      },
+      "blockClass": "footer-menu-link"
+    }
+  },
+  "menu-item#bolsaDeTrabajo": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Trabaja en Whirlpool",
+        "text": "Trabaja en Whirlpool"
+      },
+      "blockClass": "footer-menu-link"
+    }
+  },
+  "menu-item#whirlpoolRecall": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Whirlpool Recall",
+        "text": "Whirlpool Recall"
+      },
+      "blockClass": "footer-menu-link"
+    }
+  }
+}

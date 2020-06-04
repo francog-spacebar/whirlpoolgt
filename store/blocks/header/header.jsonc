@@ -1,0 +1,266 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#top-desktop",
+      "flex-layout.row#header-container"
+    ]
+  },
+  "flex-layout.row#header-container": {
+    "children": ["flex-layout.col#header-container"],
+    "props": {
+      "blockClass": "header-container"
+    }
+  },
+  "flex-layout.col#header-container": {
+    "children": ["flex-layout.row#1-desktop", "flex-layout.row#2-desktop"],
+    "props": {
+      "blockClass": "header-container"
+    }
+  },
+  "flex-layout.row#top-desktop": {
+    "children": ["image#notification-header"],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "image#notification-header": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/pre-header-whirlpool.gif"
+    }
+  },
+  "flex-layout.row#1-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "space-between",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar#search-bar",
+      "flex-layout.col#spacer",
+      "image#screwdriver",
+      "login",
+      "minicart.v2",
+      "flex-layout.col#spacer"
+    ]
+  },
+  "minicart.v2": {
+    "props": {
+      "variation": "drawer",
+      "quantityDisplay": "always",
+      "backdropMode": "none"
+    }
+  },
+  "image#screwdriver": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/screwdriver.png?v=637214011945200000",
+      "maxHeight": "24px",
+      "blockClass": "link-servicio"
+    }
+  },
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "iconLabel": " "
+    }
+  },
+  "search-bar#search-bar": {
+    "props": {
+      "placeholder": "Buscar",
+      "hasIconLeft": true
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+
+  "flex-layout.row#2-desktop": {
+    "props": {
+      "blockClass": "category-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#category-menu",
+      "flex-layout.row#header-telephone-container"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Tienda Whirlpool para Empleados",
+      "href": "/",
+      "url": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/logo_whirpool.png",
+      "width": "180"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["flex-layout.row#top-mobile", "flex-layout.row#1-mobile"]
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#top-mobile": {
+    "children": ["image#notification-header-mobile"],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "image#notification-header-mobile": {
+    "props": {
+      "src": "  https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/pre-header-whirlpool_mobile.gif"
+    }
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "drawer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"],
+    "props": { "isFullWidth": true, "backdropMode": "none" }
+  },
+
+  "menu#drawer": {
+    "children": [
+      "flex-layout.row#search-bar-mobile",
+      "flex-layout.row#header-2-mobile",
+      "flex-layout.col#header-telephone-mobile"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#search-bar-mobile":{
+    "children":["search-bar#search-bar-mobile"],
+    "props":{
+      "blockClass":"search-bar-mobile-container",
+      "marginLeft":4,
+      "marginRight":4,
+      "colGap":3
+    }
+  },
+  "search-bar#search-bar-mobile": {
+    "props": {
+      "placeholder": "Buscar",
+      "blockClass":"search-bar-mobile",
+      "maxWidth":"350px",
+      "displayMode":"search-and-clear-buttons"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Tienda Whirlpool",
+      "href": "/",
+      "url": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/logo_whirpool.png",
+      "height": 32,
+      "mobileHeight": 32
+    }
+  },
+  "flex-layout.row#header-telephone-container": {
+    "children": ["flex-layout.col#header-telephone"],
+    "props": {
+      "blockClass": "header-telephone"
+    }
+  },
+  "flex-layout.col#header-telephone": {
+    "children": ["flex-layout.row#header-telephone"],
+    "props": {
+      "blockClass": "header-telephone"
+    }
+  },
+  "flex-layout.row#header-telephone": {
+    "children": ["rich-text#telephone-leyend", "rich-text#telephone-number"],
+    "props": {
+      "blockClass": "header-telephone"
+    }
+  },
+  "flex-layout.col#header-telephone-mobile": {
+    "children": [
+      "rich-text#telephone-leyend-mobile",
+      "rich-text#telephone-number-mobile"
+    ],
+    "props": {
+      "blockClass": "header-telephone-mobile",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign":"center"
+    }
+  },
+  "rich-text#telephone-leyend": {
+    "props": {
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "text": "Atención al cliente: ",
+      "blockClass": "telephone-leyend",
+      "textAlignMent": "RIGHT",
+      "font": "t-mini"
+    }
+  },
+  "rich-text#telephone-number": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[ (81) 8329-2100](8183292100)",
+      "textColor": "c-on-action-secondary",
+      "font": "t-mini",
+      "blockClass": "telephone-number"
+    }
+  },
+  "rich-text#telephone-leyend-mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Atención al cliente: ",
+      "blockClass": "telephone-leyend-mobile",
+      "font": "t-mini"
+    }
+  },
+  "rich-text#telephone-number-mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[ (81) 8329-2100](8183292100)",
+      "textColor": "c-on-action-secondary",
+      "font": "t-mini",
+      "blockClass": "telephone-number-mobile"
+    }
+  }
+}

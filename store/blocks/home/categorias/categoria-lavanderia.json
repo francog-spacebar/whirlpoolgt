@@ -1,0 +1,115 @@
+{
+  "flex-layout.row#category-lavanderia": {
+    "children": [
+      "flex-layout.col#home-category-left-lavanderia",
+      "flex-layout.col#home-category-right-lavanderia"
+    ],
+    "props": { "blockClass": "home-category-container" }
+  },
+  "rich-text#home-cat3-subtitle": {
+    "props": {
+      "text": "#1 Marca Preferida",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-4",
+      "blockClass": "home-category-subtitle"
+    }
+  },
+  "rich-text#home-cat3-content-text": {
+    "props": {
+      "text": "Exclusivo Xpert System\n+Movimientos\n+Limpieza",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-f6",
+      "blockClass": "home-category-subtitle"
+    }
+  },
+  "image#home-cat3-content-image": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/_home-lavanderia.jpg",
+      "blockClass": "content-image-small"
+    }
+  },
+  "rich-text#home-cat3-content-link": {
+    "props": {
+      "text": "[Conoce más](#)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-f6",
+      "blockClass": "home-category-link"
+    }
+  },
+  "rich-text#category-lavanderia-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Lavandería",
+      "font": "t-heading-2",
+      "blockClass": "home-category-title"
+    }
+  },
+  "flex-layout.row#home-category-big-image3": {
+    "children": ["image#category-lavanderia1"]
+  },
+
+  "flex-layout.row#home-category-small-image-container3": {
+    "children": [
+
+      "flex-layout.col#home-category3-small-image2",
+      "flex-layout.col#home-category3-small-image1"
+    ]
+  },
+  "flex-layout.col#home-category3-small-image1": {
+    "children": ["image#category-lavanderia2"],
+    "props":{
+      "width":"60%"
+    }
+  },
+  "flex-layout.col#home-category3-small-image2": {
+    "children": ["image#category-lavanderia3"],
+    "props":{
+      "width":"40%",
+      "marginLeft":"4"
+    }
+  },
+  "flex-layout.col#home-category-left-lavanderia": {
+    "children": [
+      "rich-text#category-lavanderia-title",
+      "rich-text#home-cat3-subtitle",
+      "rich-text#home-cat3-content-text",
+      "image#home-cat3-content-image",
+      "rich-text#home-cat3-content-link"
+    ],
+    "props": {
+      "blockClass": "home-category-info",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#home-category-right-lavanderia": {
+    "children": [
+      "flex-layout.row#home-category-big-image3",
+      "flex-layout.row#home-category-small-image-container3"
+    ],
+    "props": {
+      "blockClass": "home-category-right_layout"
+    }
+  },
+  "image#category-lavanderia1": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/_home-lavanderia_01.jpg",
+      "blockClass": "big"
+    }
+  },
+  "image#category-lavanderia2": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/_home-lavanderia_02.jpg",
+      "blockClass": "small-lg"
+    }
+  },
+  "image#category-lavanderia3": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/_home-lavanderia_03.jpg",
+      "blockClass": "small-sm"
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "footer-layout.mobile": {
+    "children": ["flex-layout.row#footer-row-mobile"]
+  },
+  "flex-layout.row#footer-row-mobile": {
+    "children": ["flex-layout.col#footer-col-mobile"],
+    "props": {
+      "blockClass": "footer-row-mobile"
+    }
+  },
+  "flex-layout.col#footer-col-mobile": {
+    "children": [
+      "flex-layout.row#footer-1-mobile",
+      "flex-layout.row#footer-2-mobile",
+      "flex-layout.row#Institucionales",
+      "flex-layout.row#footer-4-desktop",
+      "flex-layout.row#allRightsReserved"
+    ],
+    "props": {
+      "blockClass": "footer-col-mobile"
+    }
+  },
+  "flex-layout.row#footer-1-mobile": {
+    "children": ["image#newsletter-footer-mobile"],
+    "props": {
+      "blockClass": "footer-newsletter"
+    }
+  },
+  "image#newsletter-footer-mobile": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/newsletter-mobile-footer-screenshot.png"
+    }
+  },
+  "flex-layout.row#footer-2-mobile": {
+    "children": ["vtex.menu@2.x:menu#footer-menu-mobile"]
+  },
+  "vtex.menu@2.x:menu#footer-menu-mobile": {
+    "children": [
+      "menu-item#footer-menu-mobile-servicioYSoporte",
+      "menu-item#footer-menu-mobile-productos",
+      "menu-item#footer-menu-mobile-acercade",
+      "menu-item#footer-menu-mobile-informacion"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#footer-menu-mobile-servicioYSoporte": {
+    "props": {
+      "blockClass": "footer-menu-mobile-cat",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Servicio y Soporte",
+        "text": "Servicio y Soporte"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#footer-submenu-mobile-servicioYSoporte"]
+  },
+  "vtex.menu@2.x:submenu#footer-submenu-mobile-servicioYSoporte": {
+    "children": ["vtex.menu@2.x:menu#footer-mobile-submenu-servicioYSoporte"],
+    "props": {
+      "blockClass": "footer-submenu-mobile",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-mobile-submenu-servicioYSoporte": {
+    "children": [
+      "menu-item#registroDeProducto",
+      "menu-item#garantiasExtendidas",
+      "menu-item#talleresCertificados",
+      "menu-item#refacciones",
+      "menu-item#videosDeAyuda",
+      "menu-item#contactanos"
+    ],
+    "props": {
+      "blockClass": "footer-submenu-mobile",
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#footer-menu-mobile-productos": {
+    "props": {
+      "blockClass": "footer-menu-mobile-cat",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Productos",
+        "text": "Productos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#footer-submenu-mobile-productos"]
+  },
+  "vtex.menu@2.x:submenu#footer-submenu-mobile-productos": {
+    "children": ["vtex.menu@2.x:menu#footer-mobile-submenu-productos"],
+    "props": {
+      "blockClass": "footer-submenu-mobile",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-mobile-submenu-productos": {
+    "children": [
+      "menu-item#lavanderia",
+      "menu-item#refrigeracion",
+      "menu-item#cocina",
+      "menu-item#hogar"
+    ],
+    "props": {
+      "blockClass": "footer-submenu-mobile",
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#footer-menu-mobile-acercade": {
+    "props": {
+      "blockClass": "footer-menu-mobile-cat",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Acerca de Whirlpool",
+        "text": "Acerca de Whirlpool"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#footer-submenu-mobile-acercade"]
+  },
+  "vtex.menu@2.x:submenu#footer-submenu-mobile-acercade": {
+    "children": ["vtex.menu@2.x:menu#footer-mobile-submenu-acercade"],
+    "props": {
+      "blockClass": "footer-submenu-mobile",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-mobile-submenu-acercade": {
+    "children": [
+      "menu-item#contacto",
+      "menu-item#acercaDeWhirlpool",
+      "menu-item#bolsaDeTrabajo",
+      "menu-item#whirlpoolRecall"
+    ],
+    "props": {
+      "blockClass": "footer-submenu-mobile",
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#footer-menu-mobile-informacion": {
+    "props": {
+      "blockClass": "footer-menu-mobile-cat",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Información",
+        "text": "Información"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#footer-submenu-mobile-informacion"]
+  },
+  "vtex.menu@2.x:submenu#footer-submenu-mobile-informacion": {
+    "children": ["vtex.menu@2.x:menu#footer-mobile-submenu-informacion"],
+    "props": {
+      "blockClass": "footer-submenu-mobile",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-mobile-submenu-informacion": {
+    "children": [
+      "rich-text#telefono-atencionalcliente"
+    ],
+    "props": {
+      "blockClass": "footer-submenu-mobile",
+      "orientation": "vertical"
+    }
+  }
+}

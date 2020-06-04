@@ -1,0 +1,342 @@
+{
+  "flex-layout.row#hero": {
+    "children": ["vtex.menu@2.x:menu#hero-menu"],
+    "props": {
+      "blockClass": "hero-menu-cont"
+    }
+  },
+
+  "vtex.menu@2.x:menu#hero-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "hero-menu"
+    },
+    "children": [
+      "flex-layout.col#hero-menu-item-cont0",
+      "flex-layout.col#hero-menu-item-cont1",
+      "flex-layout.col#hero-menu-item-cont2",
+      "flex-layout.col#hero-menu-item-cont3",
+      "flex-layout.col#hero-menu-item-cont4",
+      "flex-layout.col#hero-menu-item-cont5",
+      "flex-layout.col#hero-menu-item-cont6",
+      "flex-layout.col#hero-menu-item-cont7",
+      "flex-layout.col#hero-menu-item-cont8",
+      "flex-layout.col#hero-menu-item-cont9"
+    ]
+  },
+  "flex-layout.col#hero-menu-item-cont0": {
+    "children": ["flex-layout.col#hero-highlight-img-cont1", "menu-item#hero-menu-productos"],
+    "props": {
+      "blockClass": "hero-menu-item-cont",
+      "border": "right",
+      "borderWidth": 1,
+      "borderColor": "c-black-0125"
+    }
+  },
+  "menu-item#hero-menu-productos": {
+    "props": {
+      "blockClass": "hero-menu-item-highlight",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Productos",
+        "text": "Productos"
+      }
+    }
+  },
+  "flex-layout.col#hero-highlight-img-cont1": {
+    "children": ["image#hero-productos"],
+    "props": {
+      "blockClass": "hero-highlight-img-cont-yellow"
+    }
+  },
+  "image#hero-productos": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/laundry.png",
+      "blockClass": "hero-menu-image-highlight1"
+    }
+  },
+  "flex-layout.col#hero-menu-item-cont1": {
+    "children": [
+      "image#hero-refrigeracion",
+      "menu-item#hero-menu-refrigeracion"
+    ],
+    "props": {
+      "blockClass": "hero-menu-item-cont"
+    }
+  },
+  "menu-item#hero-menu-refrigeracion": {
+    "props": {
+      "blockClass": "hero-menu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Refrigeración",
+        "text": "Refrigeración"
+      }
+    }
+  },
+  "image#hero-refrigeracion": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/6-FrenchDoor_nueva.jpg",
+      "maxHeight": "54px",
+      "blockClass": "hero-menu-image"
+    }
+  },
+  "flex-layout.col#hero-menu-item-cont2": {
+    "children": ["image#hero-estufas", "menu-item#hero-menu-estufas"],
+    "props": {
+      "blockClass": "hero-menu-item-cont"
+    }
+  },
+  "menu-item#hero-menu-estufas": {
+    "props": {
+      "blockClass": "hero-menu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Estufas",
+        "text": "Estufas"
+      }
+    }
+  },
+  "image#hero-estufas": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/estufa_menu_whirpool.jpg",
+      "maxHeight": "54px",
+      "blockClass": "hero-menu-image"
+    }
+  },
+  "flex-layout.col#hero-menu-item-cont3": {
+    "children": ["image#hero-microondas", "menu-item#hero-menu-microondas"],
+    "props": {
+      "blockClass": "hero-menu-item-cont"
+    }
+  },
+  "menu-item#hero-menu-microondas": {
+    "props": {
+      "blockClass": "hero-menu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Microondas",
+        "text": "Microondas"
+      }
+    }
+  },
+  "image#hero-microondas": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/microondas_menu_whirpool.jpg",
+      "maxHeight": "54px",
+      "blockClass": "hero-menu-image"
+    }
+  },
+  "flex-layout.col#hero-menu-item-cont4": {
+    "children": ["image#hero-lavavajillas", "menu-item#hero-menu-lavavajillas"],
+    "props": {
+      "blockClass": "hero-menu-item-cont"
+    }
+  },
+  "menu-item#hero-menu-lavavajillas": {
+    "props": {
+      "blockClass": "hero-menu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Lavavajillas",
+        "text": "Lavavajillas"
+      }
+    }
+  },
+  "image#hero-lavavajillas": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/6-Lavavajillas_nueva.jpg",
+      "maxHeight": "54px",
+      "blockClass": "hero-menu-image"
+    }
+  },
+  "flex-layout.col#hero-menu-item-cont5": {
+    "children": ["image#hero-lavadoras", "menu-item#hero-menu-lavadoras"],
+    "props": {
+      "blockClass": "hero-menu-item-cont"
+    }
+  },
+  "menu-item#hero-menu-lavadoras": {
+    "props": {
+      "blockClass": "hero-menu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Lavadoras",
+        "text": "Lavadoras"
+      }
+    }
+  },
+  "image#hero-lavadoras": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/6-Cargafrontal_nueva.jpg",
+      "maxHeight": "54px",
+      "blockClass": "hero-menu-image"
+    }
+  },
+  "flex-layout.col#hero-menu-item-cont6": {
+    "children": ["image#hero-secadoras", "menu-item#hero-menu-secadoras"],
+    "props": {
+      "blockClass": "hero-menu-item-cont"
+    }
+  },
+  "menu-item#hero-menu-secadoras": {
+    "props": {
+      "blockClass": "hero-menu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Secadoras",
+        "text": "Secadoras"
+      }
+    }
+  },
+  "image#hero-secadoras": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/6-Secado_nueva.jpg",
+      "maxHeight": "54px",
+      "blockClass": "hero-menu-image"
+    }
+  },
+  "flex-layout.col#hero-menu-item-cont7": {
+    "children": ["image#hero-hogar", "menu-item#hero-menu-hogar"],
+    "props": {
+      "blockClass": "hero-menu-item-cont"
+    }
+  },
+  "menu-item#hero-menu-hogar": {
+    "props": {
+      "blockClass": "hero-menu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Hogar",
+        "text": "Hogar"
+      }
+    }
+  },
+  "image#hero-hogar": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/minisplits_home_whirpool.png",
+      "maxHeight": "54px",
+      "blockClass": "hero-menu-image"
+    }
+  },
+  "flex-layout.col#hero-menu-item-cont8": {
+    "children": [
+      "flex-layout.col#hero-highlight-img-cont2",
+      "menu-item#hero-menu-customer"
+    ],
+    "props": {
+      "blockClass": "hero-menu-item-cont",
+      "border": "left",
+      "borderWidth": 1,
+      "borderColor": "c-black-0125"
+    }
+  },
+  "menu-item#hero-menu-customer": {
+    "props": {
+      "blockClass": "hero-menu-item-highlight",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Atención al Cliente",
+        "text": "Atención al Cliente"
+      }
+    }
+  },
+  "flex-layout.col#hero-highlight-img-cont2": {
+    "children": ["image#hero-customer"],
+    "props": {
+      "blockClass": "hero-highlight-img-cont-gray"
+    }
+  },
+  "image#hero-customer": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/owner.png",
+       "maxHeight": "54px",
+      "blockClass": "hero-menu-image-highlight2"
+    }
+  },
+  "flex-layout.col#hero-menu-item-cont9": {
+    "children": [
+      "flex-layout.col#hero-highlight-img-cont3",
+      "menu-item#hero-menu-suscribete"
+    ],
+    "props": {
+      "blockClass": "hero-menu-item-cont",
+      "border": "left",
+      "borderWidth": 1,
+      "borderColor": "c-black-0125"
+    }
+  },
+  "menu-item#hero-menu-suscribete": {
+    "props": {
+      "blockClass": "hero-menu-item-highlight",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Suscríbete",
+        "text": "Suscríbete"
+      }
+    }
+  },
+  "flex-layout.col#hero-highlight-img-cont3": {
+    "children": ["image#hero-suscribete"],
+    "props": {
+      "blockClass": "hero-highlight-img-cont-gray"
+    }
+  },
+  "image#hero-suscribete": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/_registro.png",
+      "blockClass": "hero-menu-image-highlight2",
+      "maxHeight": "54px"
+    }
+  }
+}

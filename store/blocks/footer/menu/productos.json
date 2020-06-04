@@ -1,0 +1,84 @@
+{
+  "rich-text#footer-menu-productos-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Productos",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-6",
+      "blockClass": "footer-menu-title"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-menu-productos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#footer-menu-productos-title",
+      "menu-item#lavanderia",
+      "menu-item#refrigeracion",
+      "menu-item#cocina",
+      "menu-item#hogar"
+    ]
+  },
+  "menu-item#lavanderia": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Lavandería",
+        "text": "Lavandería"
+      },
+      "blockClass": "footer-menu-link"
+    }
+  },
+  "menu-item#refrigeracion": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Refrigeración",
+        "text": "Refrigeración"
+      },
+      "blockClass": "footer-menu-link"
+    }
+  },
+  "menu-item#cocina": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cocina",
+        "text": "Cocina"
+      },
+      "blockClass": "footer-menu-link"
+    }
+  },
+  "menu-item#hogar": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Hogar",
+        "text": "Hogar"
+      },
+      "blockClass": "footer-menu-link"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "flex-layout.row#owner-center": {
+    "children": ["flex-layout.col#owner-center-col"],
+    "props": {
+      "blockClass": "owner-center"
+    }
+  },
+  "flex-layout.col#owner-center-col": {
+    "children": [
+      "rich-text#owner-center-title",
+      "flex-layout.row#owner-center-info-card-row"
+    ]
+  },
+  "rich-text#owner-center-title": {
+    "props": {
+      "text": "Servicio al Cliente",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-mini",
+      "blockClass": "owner-center-title"
+    }
+  },
+  "flex-layout.row#owner-center-info-card-row": {
+    "children": [
+      "info-card#owner-center-registro",
+      "info-card#owner-center-manual",
+      "info-card#owner-center-support"
+    ],
+    "props": { "blockClass": "owner-center-info-card-container" }
+  },
+  "info-card#owner-center-registro": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://www.whirlpool.mx/arquivos/_registro.png",
+      "headline": "Registro de Producto",
+      "callToActionText": "Registra tu producto Whirlpool para complementar tu experiencia",
+      "callToActionUrl": "#",
+      "callToActionMode": "link",
+      "textAlignment": "center",
+      "blockClass": "owner-center-info-card"
+    }
+  },
+  "info-card#owner-center-manual": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://www.whirlpool.mx/arquivos/_manual.png",
+      "headline": "Manuales",
+      "callToActionText": "Conoce los detalles de tu producto Whirpool",
+      "callToActionUrl": "#",
+      "callToActionMode": "link",
+      "textAlignment": "center",
+      "blockClass": "owner-center-info-card"
+    }
+  },
+  "info-card#owner-center-support": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://www.whirlpool.mx/arquivos/support.png",
+      "headline": "Servicios",
+      "callToActionText": "Instalaciones, garantías y servicio técnico",
+      "callToActionUrl": "#",
+      "callToActionMode": "link",
+      "textAlignment": "center",
+      "blockClass": "owner-center-info-card"
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  
+  "vtex.menu@2.x:menu#category-cocina": {
+    "props": {
+      "orientation": "horizontal",
+      "isFullWidth": true
+    },
+    "children": [
+      "menu-item#category-cocina-estufas",
+      "menu-item#category-cocina-hornos",
+      "menu-item#category-cocina-parrillas",
+      "menu-item#category-cocina-campanas",
+      "menu-item#category-cocina-microondas",
+      "menu-item#category-cocina-lavavajillas"
+    ]
+  },
+  "menu-item#category-cocina-estufas": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-cocina-estufas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Estufas",
+        "text": "Estufas"
+      }
+    }
+  },
+  "menu-item#category-cocina-hornos": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-cocina-hornos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Hornos",
+        "text": "Hornos"
+      }
+    }
+  },
+  "menu-item#category-cocina-parrillas": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-cocina-parrillas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Parrillas",
+        "text": "Parrillas"
+      }
+    }
+  },
+  "menu-item#category-cocina-campanas": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-cocina-campanas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Campanas",
+        "text": "Campanas"
+      }
+    }
+  },
+  "menu-item#category-cocina-microondas": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-cocina-microondas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Microondas",
+        "text": "Microondas"
+      }
+    }
+  },
+  "menu-item#category-cocina-lavavajillas": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-cocina-lavavajillas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Lavavajillas",
+        "text": "Lavavajillas"
+      }
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#category-mobile-cocina": {
+    "props": {
+      "orientation": "vertical",
+      "isFullWidth": true,
+      "blockClass":"header-menu-category-submenu"
+    },
+    "children": [
+      "menu-item#category-cocina-estufas",
+      "menu-item#category-cocina-hornos",
+      "menu-item#category-cocina-parrillas",
+      "menu-item#category-cocina-campanas",
+      "menu-item#category-cocina-microondas",
+      "menu-item#category-cocina-lavavajillas"
+    ]
+  }
+}

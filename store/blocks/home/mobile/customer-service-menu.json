@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#customer-service-menu-mobile": {
+    "children": ["image#customer-service-menu-placeholder"],
+    "props": { "marginTop": 4, "marginBottom": 4 }
+  },
+  "flex-layout.row#customer-service-menu-mobile-title": {
+    "children": [],
+    "props": {}
+  },
+  "flex-layout.row#customer-service-menu-mobile-content": {
+    "children": [],
+    "props": {}
+  },
+  "image#customer-service-menu-mobile-title-image": {},
+  "rich-text#customer-service-menu-mobile-title-text": {
+    "props": {
+      "text": "Atencion al cliente",
+      "blockClass": ""
+    }
+  },
+  "flex-layout.col#customer-service-menu-mobile-item1": {
+    "children": [
+      "image#hero-mobile-item-image-secadoras",
+      "rich-text#hero-mobile-item-text-secadoras"
+    ],
+    "props": {
+      "blockClass": "hero-menu-item-cont",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#customer-service-menu-placeholder": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/customer-service-menu-mobile-screenshot.png"
+    }
+  }
+}

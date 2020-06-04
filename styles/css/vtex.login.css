@@ -1,0 +1,17 @@
+@media (min-width: 980px) {
+  .container {
+    border: 1px solid #ccc;
+    border-top: none;
+    border-bottom: none;
+    padding: 10px 0;
+    padding-left: 10px;
+  }
+
+  .profileIcon {
+    transform: scale(1.5) translateX(6px) translateY(2px);
+  }
+}
+
+.profileIcon {
+  transform: scale(1.5) translateX(6px);
+}

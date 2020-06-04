@@ -1,0 +1,61 @@
+.sliderLayoutContainer--home-slider {
+  background-color: #d8d8d8;
+  height: 30%;
+  border-bottom: 0.5rem solid #eeab00;
+}
+@media (max-width:980px){
+  .sliderLayoutContainer--home-slider {
+    background-color: #d8d8d8;
+    height: 260px;
+    border-bottom: 0.5rem solid #eeab00;
+  }
+}
+.sliderTrackContainer--home-slider{
+  height:100%
+}
+
+.sliderLeftArrow--home-slider {
+  color: #fff;
+  background: url(https://newwhirlpoolcol.vteximg.com.br/arquivos/slider_left_btn.png)
+    center no-repeat !important;
+  width: 46px;
+  height: 46px;
+}
+.sliderRightArrow--home-slider {
+  background: url(https://newwhirlpoolcol.vteximg.com.br/arquivos/slider_right_btn.png)
+    center no-repeat !important;
+  width: 46px;
+  height: 46px;
+}
+.sliderArrows--home-slider {
+  opacity: 0.5;
+  margin: 0 36px;
+}
+
+.sliderArrows--home-slider:hover {
+  opacity: 0.9;
+}
+.caretIcon--home-slider {
+  display: none;
+}
+
+@media (max-width:980px){
+  .sliderTrack{
+    height: 100%;
+  }
+}
+
+.paginationDotContainer--home-slider {
+  margin-bottom: 20px;
+}
+
+.paginationDot--home-slider {
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 1px;
+  margin-bottom: 18px;
+  background-color: #707070;
+}
+.paginationDot--home-slider--isActive {
+  background-color: #ffb700;
+}

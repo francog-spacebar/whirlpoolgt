@@ -1,0 +1,281 @@
+.flexRowContent--main-header,
+.flexRowContent--category-header {
+  padding: 0 0.5rem;
+}
+.flexRowContent--main-header {
+  background-color: #fff;
+  color: #000;
+  padding: 0 80px;
+}
+.flexRowContent--category-header {
+  background-color: #fff;
+}
+@media all and (min-width: 980px) and (max-width: 1399px) {
+  .flexRowContent--category-header {
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--main-header,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  .flexRowContent--main-header,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #fff;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexCol--switcherMobileCol {
+  width: 20%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+.flexRow--footer-newsletter,
+.flexRow--footer-row2,
+.flexRow--footer-row4,
+.flexRow--footer-copyright,
+.flexRow--footer-institucionales {
+  background-color: #f2f2f2;
+}
+
+.flexRow--footer-newsletter {
+  display: block;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+@media (min-width: 980px) {
+  .flexCol--home-category-info {
+    flex: 0.6;
+  }
+}
+.flexCol--home-category-info {
+  padding: 10% 0;
+  flex: 0.8;
+}
+.flexRow--home-category-container {
+  margin: 24px 0;
+}
+
+.flexCol--home-category-right_layout {
+  height: 70%;
+}
+
+.flexRow--owner-center {
+  width: 100%;
+  height: 26.9375rem;
+  background-color: #fff;
+  background-image: url(https://whirlpool.com/content/dam/business-unit/whirlpool/en-us/marketing-content/site-assets/page-content/home-page/refresh/images/hp-owners-center-bg_v2.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+@media (max-width: 980px) {
+  .flexRow--owner-center {
+    margin-bottom: 48px;
+  }
+}
+.flexRow--owner-center-info-card-container {
+  margin-top: 0;
+}
+@media (max-width: 980px) {
+  .flexRow--owner-center {
+    background-size: cover;
+    height: auto;
+  }
+  .flexRow--owner-center-info-card-container {
+    margin-top: 5rem;
+  }
+}
+
+.flexColChild--footer-informacion {
+  margin: 0;
+  padding: 0;
+  height: 55px !important;
+}
+
+.flexRow--header-container {
+  padding-top: 12px;
+  min-width: 75rem;
+  align-self: center;
+  align-items: center;
+}
+.flexRow--home-container,
+.flexRow--footer-row {
+  max-width: 75rem;
+  margin: auto;
+  align-self: center;
+  align-items: center;
+}
+.flexCol--footer-metodosdepago {
+  border-right: 2px solid #ccc;
+}
+.flexRow--metodosdepago-images {
+  justify-content: center;
+}
+
+.flexRow--header-telephone {
+  margin-left: 0;
+  margin-top: 4px;
+}
+
+.flexRow--hero-menu-cont {
+  position: relative;
+  background-color: #ffffff;
+  top: -58px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16);
+  padding: 16px;
+  margin-bottom: -18px;
+}
+@media screen and (max-width: 980px) {
+  .flexRow--hero-menu-cont {
+    display: none;
+  }
+}
+
+.flexCol--hero-menu-item-cont {
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  border-color: #eee;
+  border-width: 1px;
+  width: 10%;
+}
+
+.flexCol--hero-highlight-img-cont-yellow,
+.flexCol--hero-highlight-img-cont-gray {
+  border-radius: 50%;
+  height: 6.25rem;
+  width: 6.25rem;
+  transition: background-color 175ms ease-in;
+  cursor: pointer;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+.flexCol--hero-highlight-img-cont-yellow {
+  background-color: #eeab00;
+}
+.flexCol--hero-highlight-img-cont-gray {
+  background-color: #1d1d1b;
+}
+.flexColChild--hero-highlight-img-cont-gray {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+}
+
+.flexCol--hero-mobile-item-cont {
+  border: 1px solid #70707035;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.flexColChild--header-telephone-mobile {
+  width: 100vw;
+}
+
+.flexRow--search-bar-mobile-container {
+  padding: 0 24px 0 16px;
+  width: 100vw;
+}
+@media (min-width: 451px) and (max-width:640px) {
+  .flexRow--search-bar-mobile-container {
+    width: 418px;
+  }
+  .flexColChild--header-telephone-mobile {
+    width: 450px;
+  }
+}
+@media (min-width: 641px) and (max-width: 1023px) {
+  .flexRow--search-bar-mobile-container {
+    width: 418px;
+  }
+  .flexColChild--header-telephone-mobile {
+    width: 450px;
+  }
+}
+
+.flexRow--hero-mobile-cont-tablet3{
+width: 33%;
+}
+
+.flexRowContent--hero-mobile-cont-tablet{
+}
+.flexRow--hero-mobile-wrapper-tablet{
+ 
+
+}
+
+.flexRowContent--hero-mobile-wrapper-tablet{
+}

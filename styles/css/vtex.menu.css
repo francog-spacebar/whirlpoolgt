@@ -1,0 +1,205 @@
+.menuContainer {
+  align-self: flex-start;
+}
+
+.menuItem--cat-menu {
+  color: #000;
+  padding: 0;
+}
+.styledLinkContainer--cat-menu {
+  border-bottom: 4px solid transparent;
+  letter-spacing: normal !important;
+  margin: 0;
+}
+
+.styledLinkContent--cat-menu {
+  color: #000;
+  font-weight: bold !important;
+  padding: 0 0.6375rem;
+}
+@media (max-width: 980px) {
+  .menuItem--cat-menu {
+    border-top: 1px solid #6c6c6c30;
+    border-bottom: 1px solid #6c6c6c30;
+    padding: 0.75rem 0 !important;
+  }
+  .submenuWrapper--header-submenu{    
+    padding-bottom: 4px;
+  }
+  .menuContainerNav--header-menu-category-submenu{
+    width:100%;
+  }
+  .styledLinkContent--cat-menu,.styledLinkContent--subcat {
+    color: #707070;
+    font-weight: bold !important;
+    font-size: large;
+    padding: 0 0.6375rem;
+  }
+  .menuItem--subcat{
+    padding: 0.6375rem 0;
+    border-bottom: 1px solid #6c6c6c30;
+  }
+  
+  .styledLinkContent--cat-menu::after {
+    content: "";
+    font-size: 0;
+    border-bottom: 2px solid #333;
+    border-right: 2px solid #333;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    position: relative;
+    right: 14px;
+  }
+
+  
+}
+@media (min-width: 980px) {
+  .submenuWrapper--header-submenu {
+    background-color: #1d1d1b;
+    padding: 0;
+    width: grow;
+    border: none;
+    position: absolute;
+  }
+  .submenu--header-submenu {
+    background-color: #1d1d1b;
+  }
+  .menuItem--cat-menu {
+    color: #000;
+    padding: 0;
+  }
+  .styledLinkContent--subcat {
+    color: #fff;
+    text-decoration: none;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .styledLinkContent--subcat:hover {
+    color: #eeab00;
+    border-bottom: 0.25rem solid #eeab00;
+  }
+  .submenuWrapper--header-submenu {
+    position: absolute!important;
+  }
+}
+.submenuWrapper--header-submenu {
+  position: relative;
+  border-bottom: 0.25rem solid #eeab00;
+}
+
+.menuItem--footer-menu-link {
+  margin-bottom: 4px;
+}
+.styledLinkContent--footer-menu-link {
+  font-size: 12px;
+  color: #707070;
+}
+
+.menuContainer--hero-menu {
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.styledLinkContent--hero-menu-item {
+  font-size: 12px;
+}
+
+.menuItem--hero-menu-item:hover .styledLinkContent--hero-menu-item {
+  color: #eeab00;
+}
+.styledLinkContainer--hero-menu-item {
+  padding: 4px;
+}
+.styledLinkContent--hero-menu-item-highlight {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+  width: 80%;
+  white-space: break-spaces;
+}
+
+.menuContainer--menu-institucional {
+  align-items: center;
+  justify-content: center;
+}
+
+.styledLinkContent--menu-institucional-item {
+  color: #707070;
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+/* Header  Mobile */
+.menuItem--header-menu-mobile-cat {
+  padding: 0.75rem 0.175rem;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.menuItem--header-menu-mobile-cat::after {
+}
+.styledLinkContainer--header-menu-mobile-cat
+  .styledLinkContent--header-menu-link {
+  font-size: 1rem;
+  color: #333;
+}
+.styledLinkContent--header-menu-mobile-cat {
+  font-size: 1.1875rem;
+  font-weight: 700;
+  color: #707070;
+}
+.styledLinkContent--header-menu-mobile-cat::after {
+  content: "";
+  font-size: 0;
+  border-bottom: 1px solid #333;
+  border-right: 1px solid #333;
+  width: 12px;
+  height: 12px;
+  transform: rotate(45deg);
+  position: relative;
+  right: 14px;
+}
+.submenuWrapper--header-submenu-mobile {
+  position: relative;
+  background-color: transparent;
+  border: none;
+}
+
+/* Footer Mobile */
+.menuItem--footer-menu-mobile-cat {
+  padding: 0.75rem 0.175rem;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.menuItem--footer-menu-mobile-cat::after {
+}
+.styledLinkContainer--footer-menu-mobile-cat
+  .styledLinkContent--footer-menu-link {
+  font-size: 1rem;
+  color: #333;
+}
+.styledLinkContent--footer-menu-mobile-cat {
+  font-size: 1.1875rem;
+  font-weight: 700;
+}
+.styledLinkContent--footer-menu-mobile-cat::after {
+  content: "";
+  font-size: 0;
+  border-bottom: 2px solid #333;
+  border-right: 2px solid #333;
+  width: 6px;
+  height: 6px;
+  transform: rotate(45deg);
+  position: relative;
+  right: 14px;
+}
+.submenuWrapper--footer-submenu-mobile {
+  position: relative;
+  background-color: transparent;
+  border: none;
+}

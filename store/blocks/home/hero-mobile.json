@@ -1,0 +1,264 @@
+{
+  "flex-layout.row#hero-tablet": {
+    "children": ["flex-layout.col#hero-tablet-col"],
+    "props": {
+      "blockClass": "hero-mobile-wrapper-tablet",
+      "marginTop": 4,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "left"
+    }
+  },
+  "flex-layout.col#hero-tablet-col": {
+    "children": [
+      "flex-layout.row#hero-tablet-1",
+      "flex-layout.row#hero-tablet-2",
+      "flex-layout.row#hero-tablet-3"
+    ],
+    "props": {"horizontalAlign":"left"}
+  },
+  "flex-layout.row#hero-tablet-1": {
+    "children": [
+      "flex-layout.col#hero-mobile-item-cont1",
+      "flex-layout.col#hero-mobile-item-cont2",
+      "flex-layout.col#hero-mobile-item-cont3"
+    ],
+    "props": {
+      "blockClass": "hero-mobile-cont-tablet",
+      "preserveLayoutOnMobile": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#hero-tablet-2": {
+    "children": [
+      "flex-layout.col#hero-mobile-item-cont4",
+      "flex-layout.col#hero-mobile-item-cont5",
+      "flex-layout.col#hero-mobile-item-cont6"
+    ],
+    "props": {
+      "blockClass": "hero-mobile-cont-tablet",
+      "preserveLayoutOnMobile": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#hero-tablet-3": {
+    "children": ["flex-layout.col#hero-mobile-item-cont7"],
+    "props": {
+      "blockClass": "hero-mobile-cont-tablet3",
+      "preserveLayoutOnMobile": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#hero-phone": {
+    "children": [
+      "flex-layout.row#hero-phone-1",
+      "flex-layout.row#hero-phone-2",
+      "flex-layout.row#hero-phone-3",
+      "flex-layout.row#hero-phone-4"
+    ],
+    "props": {
+      "marginTop": 4
+    }
+  },
+  "flex-layout.row#hero-phone-1": {
+    "children": [
+      "flex-layout.col#hero-mobile-item-cont1",
+      "flex-layout.col#hero-mobile-item-cont2"
+    ],
+    "props": {
+      "blockClass": "hero-mobile-cont",
+      "preserveLayoutOnMobile": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#hero-phone-2": {
+    "children": [
+      "flex-layout.col#hero-mobile-item-cont3",
+      "flex-layout.col#hero-mobile-item-cont4"
+    ],
+    "props": {
+      "blockClass": "hero-mobile-cont",
+      "preserveLayoutOnMobile": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#hero-phone-3": {
+    "children": [
+      "flex-layout.col#hero-mobile-item-cont5",
+      "flex-layout.col#hero-mobile-item-cont6"
+    ],
+    "props": {
+      "blockClass": "hero-mobile-cont",
+      "preserveLayoutOnMobile": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#hero-phone-4": {
+    "children": ["flex-layout.col#hero-mobile-item-cont7"],
+    "props": {
+      "blockClass": "hero-mobile-cont",
+      "preserveLayoutOnMobile": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#hero-mobile-item-cont1": {
+    "children": [
+      "image#hero-mobile-item-image-refrigeracion",
+      "rich-text#hero-mobile-item-text-refrigeracion"
+    ],
+    "props": {
+      "blockClass": "hero-mobile-item-cont"
+    }
+  },
+  "rich-text#hero-mobile-item-text-refrigeracion": {
+    "props": {
+      "text": "Refrigeración",
+      "blockClass": "hero-mobile-item-text"
+    }
+  },
+  "image#hero-mobile-item-image-refrigeracion": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/6-FrenchDoor_nueva.jpg",
+      "maxHeight": "200px",
+      "blockClass": "hero-mobile-item-image"
+    }
+  },
+  "flex-layout.col#hero-mobile-item-cont2": {
+    "children": [
+      "image#hero-mobile-item-image-estufas",
+      "rich-text#hero-mobile-item-text-estufas"
+    ],
+    "props": {
+      "blockClass": "hero-mobile-item-cont",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#hero-mobile-item-text-estufas": {
+    "props": {
+      "text": "Estufas",
+      "blockClass": "hero-mobile-item-text"
+    }
+  },
+  "image#hero-mobile-item-image-estufas": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/estufa_menu_whirpool.jpg",
+      "maxHeight": "200px",
+      "blockClass": "hero-menu-image"
+    }
+  },
+  "flex-layout.col#hero-mobile-item-cont3": {
+    "children": [
+      "image#hero-mobile-item-image-microondas",
+      "rich-text#hero-mobile-item-text-microondas"
+    ],
+    "props": {
+      "blockClass": "hero-mobile-item-cont",
+      "preventVerticalStretch": true,
+      "preventHotizontalStretch": true
+    }
+  },
+  "rich-text#hero-mobile-item-text-microondas": {
+    "props": {
+      "text": "Microondas",
+      "blockClass": "hero-mobile-item-text"
+    }
+  },
+  "image#hero-mobile-item-image-microondas": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/microondas_menu_whirpool.jpg",
+      "maxHeight": "200px",
+      "blockClass": "hero-menu-image"
+    }
+  },
+  "flex-layout.col#hero-mobile-item-cont4": {
+    "children": [
+      "image#hero-mobile-item-image-lavavajillas",
+      "rich-text#hero-mobile-item-text-lavavajillas"
+    ],
+    "props": {
+      "blockClass": "hero-mobile-item-cont",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#hero-mobile-item-text-lavavajillas": {
+    "props": {
+      "text": "Lavavajillas",
+      "blockClass": "hero-mobile-item-text"
+    }
+  },
+  "image#hero-mobile-item-image-lavavajillas": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/6-Lavavajillas_nueva.jpg",
+      "maxHeight": "200px",
+      "blockClass": "hero-menu-image"
+    }
+  },
+  "flex-layout.col#hero-mobile-item-cont5": {
+    "children": [
+      "image#hero-mobile-item-image-lavadoras",
+      "rich-text#hero-mobile-item-text-lavadoras"
+    ],
+    "props": {
+      "blockClass": "hero-mobile-item-cont",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#hero-mobile-item-text-lavadoras": {
+    "props": {
+      "text": "Lavadoras",
+      "blockClass": "hero-mobile-item-text"
+    }
+  },
+  "image#hero-mobile-item-image-lavadoras": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/6-Cargafrontal_nueva.jpg",
+      "maxHeight": "200px",
+      "blockClass": "hero-menu-image"
+    }
+  },
+  "flex-layout.col#hero-mobile-item-cont6": {
+    "children": [
+      "image#hero-mobile-item-image-secadoras",
+      "rich-text#hero-mobile-item-text-secadoras"
+    ],
+    "props": {
+      "blockClass": "hero-mobile-item-cont",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#hero-mobile-item-text-secadoras": {
+    "props": {
+      "text": "Secadoras",
+      "blockClass": "hero-mobile-item-text"
+    }
+  },
+  "image#hero-mobile-item-image-secadoras": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/6-Secado_nueva.jpg",
+      "maxHeight": "200px",
+      "blockClass": "hero-menu-image"
+    }
+  },
+  "flex-layout.col#hero-mobile-item-cont7": {
+    "children": [
+      "image#hero-mobile-item-image-hogar",
+      "rich-text#hero-mobile-item-text-hogar"
+    ],
+    "props": {
+      "blockClass": "hero-mobile-item-cont",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#hero-mobile-item-text-hogar": {
+    "props": {
+      "text": "Hogar",
+      "blockClass": "hero-mobile-item-text"
+    }
+  },
+  "image#hero-mobile-item-image-hogar": {
+    "props": {
+      "src": "https://www.whirlpool.mx/arquivos/minisplits_home_whirpool.png",
+      "maxHeight": "200px",
+      "blockClass": "hero-menu-image"
+    }
+  }
+}

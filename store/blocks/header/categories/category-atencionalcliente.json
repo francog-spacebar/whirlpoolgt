@@ -1,0 +1,112 @@
+{
+  "vtex.menu@2.x:menu#category-atencionalcliente": {
+    "props": {
+      "orientation": "horizontal",
+      "isFullWidth": true
+    },
+    "children": [
+      "menu-item#category-atencionalcliente-registrodeproducto",
+      "menu-item#category-atencionalcliente-solicituddeservicio",
+      "menu-item#category-atencionalcliente-garantiasextendidas",
+      "menu-item#category-atencionalcliente-wisasistentevirtual",
+      "menu-item#category-atencionalcliente-serviciosysoporte"
+    ]
+  },
+  "menu-item#category-atencionalcliente-registrodeproducto": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-atencionalcliente-registrodeproducto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "registrodeproducto",
+        "text": "Registro de Producto"
+      }
+    }
+  },
+  "menu-item#category-atencionalcliente-solicituddeservicio": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-atencionalcliente-solicituddeservicio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "solicituddeservicio",
+        "text": "Solicitud de Servicio"
+      }
+    }
+  },
+  "menu-item#category-atencionalcliente-garantiasextendidas": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-atencionalcliente-garantiasextendidas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "garantiasextendidas",
+        "text": "Garantías Extendidas"
+      }
+    }
+  },
+  "menu-item#category-atencionalcliente-wisasistentevirtual": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-atencionalcliente-wisasistentevirtual",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "wisasistentevirtual",
+        "text": "WIS Asistente Virtual"
+      }
+    }
+  },
+  "menu-item#category-atencionalcliente-serviciosysoporte": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-atencionalcliente-serviciosysoporte",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "serviciosysoporte",
+        "text": "Servicios y Soporte"
+      }
+    }
+  },
+
+
+
+  "vtex.menu@2.x:menu#category-mobile-atencionalcliente": {
+    "props": {
+      "orientation": "vertical",
+      "isFullWidth": true,
+      "blockClass":"header-menu-category-submenu"
+    },
+    "children": [
+      "menu-item#category-atencionalcliente-registrodeproducto",
+      "menu-item#category-atencionalcliente-solicituddeservicio",
+      "menu-item#category-atencionalcliente-garantiasextendidas",
+      "menu-item#category-atencionalcliente-wisasistentevirtual",
+      "menu-item#category-atencionalcliente-serviciosysoporte"
+    ]
+  }
+}

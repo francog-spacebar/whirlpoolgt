@@ -1,0 +1,121 @@
+{
+  "flex-layout.row#slider-container": {
+    "children": ["slider-layout#demo-images"]
+  },
+  "slider-layout#demo-images": {
+    "children": [
+      "image#slider-image1",
+      "image#slider-image2",
+      "image#slider-image3",
+      "image#slider-image4",
+      "image#slider-image5",
+      "image#slider-image6",
+      "image#slider-image7"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "slideTransition": { "speed": 200, "delay": 0, "timing": "" },
+      "autoplay": { "timeout": 5000, "stopOnHover": true },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "mobileOnly",
+      "blockClass": "home-slider",
+      "fullWidth": true
+    }
+  },
+  "image#slider-image1": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/enviogratis_slider1_desktop_home_05292020.jpg",
+      "blockClass": "slider-image"
+    }
+  },
+  "image#slider-image2": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/mercadolibre_slider2_desktop_home_05272020.jpg",
+      "blockClass": "slider-image"
+    }
+  },
+  "image#slider-image3": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/paypal_slider3_desktop_home_05272020.jpg",
+      "blockClass": "slider-image"
+    }
+  },
+  "image#slider-image4": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/Home_2DC_WHIRPOOL_WIS_OK.jpg",
+      "blockClass": "slider-image"
+    }
+  },
+  "image#slider-image5": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/xpert_slider5_desktop_home_05272020.jpg",
+      "blockClass": "slider-image"
+    }
+  },
+  "image#slider-image6": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/refrigeracion_slider6_desktop_home_05272020.jpg",
+      "blockClass": "slider-image"
+    }
+  },
+  "image#slider-image7": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/minisplit_slider7_desktop_home_05272020.jpg",
+      "blockClass": "slider-image"
+    }
+  },
+  "flex-layout.row#slider-container-mobile": {
+    "children": ["slider-layout#demo-images-mobile"]
+  },
+  "slider-layout#demo-images-mobile": {
+    "children": [
+      "image#slider-image1-mobile",
+      "image#slider-image2-mobile",
+      "image#slider-image3-mobile",
+      "image#slider-image4-mobile"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "slideTransition": { "speed": 200, "delay": 0, "timing": "" },
+      "autoplay": { "timeout": 5000, "stopOnHover": true },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "mobileOnly",
+      "blockClass": "home-slider",
+      "fullWidth": true
+    }
+  },
+  "image#slider-image1-mobile": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/Home_2DC_WHIRPOOL_WIS_OK_mobile.jpg",
+      "blockClass": "slider-image"
+    }
+  },
+  "image#slider-image2-mobile": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/refrigeracion_slider6_mobile_home_05272020.jpg",
+      "blockClass": "slider-image"
+    }
+  },
+  "image#slider-image3-mobile": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/xpert_slider5_mobile_home_05272020.jpg",
+      "blockClass": "slider-image"
+    }
+  },
+  "image#slider-image4-mobile": {
+    "props": {
+      "src": "https://tiendaswhirlpoold2c.vteximg.com.br/arquivos/minisplit_slider7_mobile_home_05272020.jpg",
+      "blockClass": "slider-image"
+    }
+  }
+}

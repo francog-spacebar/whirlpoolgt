@@ -1,0 +1,93 @@
+{  
+  "vtex.menu@2.x:menu#category-lavanderia": {
+    "props": {
+      "orientation": "horizontal",
+      "isFullWidth": true
+    },
+    "children": [
+      "menu-item#category-lavanderia-lavadoras",
+      "menu-item#category-lavanderia-secadoras",
+      "menu-item#category-lavanderia-centrosdelavado",
+      "menu-item#category-lavanderia-lavasecadoras"
+    ]
+  },
+  "menu-item#category-lavanderia-lavadoras": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-lavanderia-lavadoras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Lavadoras",
+        "text": "Lavadoras"
+      }
+    }
+  },
+  "menu-item#category-lavanderia-secadoras": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-lavanderia-secadoras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Secadoras",
+        "text": "Secadoras"
+      }
+    }
+  },
+  "menu-item#category-lavanderia-centrosdelavado": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-lavanderia-centrosdelavado",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Centros de Lavado",
+        "text": "Centros de Lavado"
+      }
+    }
+  },
+  "menu-item#category-lavanderia-lavasecadoras": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-lavanderia-lavasecadoras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Lavasecadoras",
+        "text": "Lavasecadoras"
+      }
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#category-mobile-lavanderia": {
+    "props": {
+      "orientation": "vertical",
+      "isFullWidth": true,
+      "blockClass":"header-menu-category-submenu"
+    },
+    "children": [
+      "menu-item#category-lavanderia-lavadoras",
+      "menu-item#category-lavanderia-secadoras",
+      "menu-item#category-lavanderia-centrosdelavado",
+      "menu-item#category-lavanderia-lavasecadoras"
+    ]
+  }
+}

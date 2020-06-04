@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3599"
+   width="16mm"
+   height="16.933323mm"
+   viewBox="0 0 15.999999 16.933323"
+   version="1.1"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="profile.svg">
+  <defs
+     id="defs3582" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg3599"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     id="namedview3584"
+     inkscape:zoom="11.2"
+     inkscape:cx="48.898812"
+     inkscape:cy="28.0113"
+     inkscape:window-width="1920"
+     inkscape:window-height="1020"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3586">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="matrix(0.93872812,0,0,0.93872812,2.8574999,0.02645833)"
+     id="g3592">
+    <path
+       id="path3588"
+       d="m 10.645477,15.785733 c -5.0899434,1.6411 -10.22264342,-0.0268 -10.22264342,-0.0268 0,0 1.17668012,-6.0012722 5.18686002,-5.8047842 4.010176,0.1964802 5.0357834,5.8315482 5.0357834,5.8315482 z"
+       style="fill:none;stroke:#1f1f1f;stroke-width:0.84568;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path3590"
+       style="fill:none;stroke:#1f1f1f;stroke-width:0.84568;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 5.4846216,8.7833612 c 0,0 3.311744,-1.248968 3.924192,-3.5287479 0.6124474,-2.2797798 -1.390332,-4.8723399 -4.0086,-4.8312839 -3.1835359,0.04992 -4.2163879,2.8939321 -3.9349439,4.7955199 0.28144,1.9015839 4.0193519,3.5645119 4.0193519,3.5645119 z" />
+  </g>
+</svg>

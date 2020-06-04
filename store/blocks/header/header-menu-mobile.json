@@ -1,0 +1,140 @@
+{
+  "flex-layout.row#header-2-mobile": {
+    "children": ["vtex.menu@2.x:menu#header-menu-mobile"]
+  },
+  "vtex.menu@2.x:menu#header-menu-mobile": {
+    "children": [
+      "menu-item#category-mobile-lavanderia",
+      "menu-item#category-mobile-refrigeracion",
+      "menu-item#category-mobile-cocina",
+      "menu-item#category-mobile-hogar",
+      "menu-item#category-mobile-atencionalcliente"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category-mobile-lavanderia": {
+    "props": {
+      "id": "menu-item-category-mobile-lavanderia",
+      "blockClass": "cat-menu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Lavandería",
+        "text": "Lavandería"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-mobile-lavanderia"]
+  },
+  "vtex.menu@2.x:submenu#category-mobile-lavanderia": {
+    "props": {
+      "blockClass":"header-submenu",
+      "width":"grow"
+    },
+    "children": ["vtex.menu@2.x:menu#category-mobile-lavanderia"]
+  },
+  "menu-item#category-mobile-cocina": {
+    "props": {
+      "id": "menu-item-category-mobile-cocina",
+      "blockClass": "cat-menu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cocina",
+        "text": "Cocina"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-mobile-cocina"]
+  },
+  "vtex.menu@2.x:submenu#category-mobile-cocina": {
+    "props": {
+      "blockClass":"header-submenu",
+      "width":"grow"
+    },
+    "children": ["vtex.menu@2.x:menu#category-mobile-cocina"]
+  },
+  "menu-item#category-mobile-hogar": {
+    "props": {
+      "id": "menu-item-category-mobile-hogar",
+      "blockClass": "cat-menu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Hogar",
+        "text": "Hogar"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-mobile-hogar"]
+  },
+  "vtex.menu@2.x:submenu#category-mobile-hogar": {
+    "props": {
+      "blockClass":"header-submenu",
+      "width":"grow"
+    },
+    "children": ["vtex.menu@2.x:menu#category-mobile-hogar"]
+  },
+  "menu-item#category-mobile-refrigeracion": {
+    "props": {
+      "id": "menu-item-category-mobile-refrigeracion",
+      "blockClass": "cat-menu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Refrigeración",
+        "text": "Refrigeración"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-mobile-refrigeracion"]
+  },
+  "vtex.menu@2.x:submenu#category-mobile-refrigeracion": {
+    "props": {
+      "blockClass":"header-submenu",
+      "width":"grow"
+    },
+    "children": ["vtex.menu@2.x:menu#category-mobile-refrigeracion"]
+  },
+  "menu-item#category-mobile-atencionalcliente": {
+    "props": {
+      "id": "menu-item-category-mobile-atencionalcliente",
+      "blockClass": "cat-menu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Atención al cliente",
+        "text": "Atención al cliente"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-mobile-atencionalcliente"]
+  },
+  "vtex.menu@2.x:submenu#category-mobile-atencionalcliente": {
+    "props": {
+      "blockClass":"header-submenu",
+      "width":"grow"
+    },
+    "children": ["vtex.menu@2.x:menu#category-mobile-atencionalcliente"]
+  }
+
+ 
+
+}

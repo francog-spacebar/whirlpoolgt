@@ -1,0 +1,128 @@
+{
+  "vtex.menu@2.x:menu#category-hogar": {
+    "props": {
+      "orientation": "horizontal",
+      "isFullWidth": true
+    },
+    "children": [
+      "menu-item#category-hogar-minisplits",
+      "menu-item#category-hogar-deshumidificadores",
+      "menu-item#category-hogar-enfriadoresdeaire",
+      "menu-item#category-hogar-purificadoresdeaire",
+      "menu-item#category-hogar-despachadordeagua",
+      "menu-item#category-hogar-purificadoresdeagua"
+    ]
+  },
+  "menu-item#category-hogar-minisplits": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-hogar-minisplits",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "minisplits",
+        "text": "Minisplits"
+      }
+    }
+  },
+  "menu-item#category-hogar-deshumidificadores": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-hogar-deshumidificadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "deshumidificadores",
+        "text": "Deshumidificadores"
+      }
+    }
+  },
+  "menu-item#category-hogar-enfriadoresdeaire": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-hogar-enfriadoresdeaire",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "enfriadoresdeaire",
+        "text": "Enfriadores de Aire"
+      }
+    }
+  },
+  "menu-item#category-hogar-purificadoresdeaire": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-hogar-purificadoresdeaire",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "purificadoresdeaire",
+        "text": "Purificadores de Aire"
+      }
+    }
+  },
+  "menu-item#category-hogar-despachadordeagua": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-hogar-despachadordeagua",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "despachadordeagua",
+        "text": "Despachador de Agua"
+      }
+    }
+  },
+  "menu-item#category-hogar-purificadoresdeagua": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-hogar-purificadoresdeagua",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "purificadoresdeagua",
+        "text": "Purificadores de Agua"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#category-mobile-hogar": {
+    "props": {
+      "orientation": "vertical",
+      "isFullWidth": true,
+      "blockClass":"header-menu-category-submenu"
+    },
+    "children": [
+      "menu-item#category-hogar-minisplits",
+      "menu-item#category-hogar-deshumidificadores",
+      "menu-item#category-hogar-enfriadoresdeaire",
+      "menu-item#category-hogar-purificadoresdeaire",
+      "menu-item#category-hogar-despachadordeagua",
+      "menu-item#category-hogar-purificadoresdeagua"
+    ]
+  }
+}

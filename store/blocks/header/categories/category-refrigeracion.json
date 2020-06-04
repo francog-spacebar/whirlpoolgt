@@ -1,0 +1,92 @@
+{
+  "vtex.menu@2.x:menu#category-refrigeracion": {
+    "props": {
+      "orientation": "horizontal",
+      "isFullWidth": true
+    },
+    "children": [
+      "menu-item#category-refrigeracion-refrigeradores",
+      "menu-item#category-refrigeracion-frigobares",
+      "menu-item#category-refrigeracion-congeladores",
+      "menu-item#category-refrigeracion-cavas"
+    ]
+  },
+  "menu-item#category-refrigeracion-refrigeradores": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-refrigeracion-refrigeradores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Refrigeradores",
+        "text": "Refrigeradores"
+      }
+    }
+  },
+  "menu-item#category-refrigeracion-frigobares": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-refrigeracion-frigobares",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Frigobares y Compactos",
+        "text": "Frigobares y Compactos"
+      }
+    }
+  },
+  "menu-item#category-refrigeracion-congeladores": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-refrigeracion-congeladores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Congeladores",
+        "text": "Congeladores"
+      }
+    }
+  },
+  "menu-item#category-refrigeracion-cavas": {
+    "props": {
+      "blockClass": "subcat",
+      "id": "menu-item-category-refrigeracion-cavas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cavas de Vino",
+        "text": "Cavas de Vino"
+      }
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#category-mobile-refrigeracion": {
+    "props": {
+      "orientation": "vertical",
+      "isFullWidth": true
+    },
+    "children": [
+      "menu-item#category-refrigeracion-refrigeradores",
+      "menu-item#category-refrigeracion-frigobares",
+      "menu-item#category-refrigeracion-congeladores",
+      "menu-item#category-refrigeracion-cavas"
+    ]
+  }
+}
